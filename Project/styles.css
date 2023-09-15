@@ -43,7 +43,7 @@
   justify-content: center;
   letter-spacing: .04em;
   line-height: 16px;
-  margin: 0;
+  margin: 20px;
   padding: 18px 18px;
   text-align: center;
   text-decoration: none;
@@ -68,7 +68,7 @@
 
 #image{
     border-radius: 20px;
-    width: 50%;
+    width: 500px;
     height:50%;
 }
 
@@ -81,9 +81,9 @@
     text-decoration: none;
     width: 50%;
     max-width: 50%;
-    margin: 20px;
+    margin: 10px;
     border-radius: 10px;
-    border: 1px solid purple;
+    border: 3px solid purple;
     font-family: sans-serif;
     height: 50px;
     color: white;
@@ -105,16 +105,23 @@ th, tr{
 
 }
 
-#button:hover{
+.buttontext:hover{
     opacity: 0.2;
 }
 
 .advert{
-    background-color: white;
     width: 150px;
     margin: 0px;
+    padding: 0px;
+    border-radius: 1px;
+    background-color: black;
+    color: white;
 }
 
 .buttontext{
-    
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    background-image: url();
 }
+
